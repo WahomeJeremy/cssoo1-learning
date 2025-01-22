@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-.html, body {
-    margin: 0;
-    padding: 0;
+html, body {
     height: 100%;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1; 
+}
+
 .footer {
     padding-top: 100vh;
     background-color: black;
