@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.footer {
+    padding-top: 100vh;
+    background-color: black;
+    color: grey;
+    font-family: sans-serif;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: grey;
+    justify-content:space-between;
+    gap: 30px ;
+    margin:0 auto ;
+    max-width: 1200px ;
+}
+
+.footer p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-links ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #a7a1a1;
+    text-decoration: none;
+    transition: color 0.3s ease
+}
+
+.footer-topics ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-topics li {
+    margin-bottom: 10px;
+}
+
+.footer-topics a {
+    color: #a7a1a1;
+    text-decoration: none;
+    transition: color 0.3s ease
+}
+
+.footer-policies ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-policies li {
+    margin-bottom: 10px;
+}
+
+.footer-policies a {
+    color: #a7a1a1;
+    text-decoration: none;
+    transition: color 0.3s ease
+}
+
+.footer-social {
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.footer-social .social-icon {
+    display: inline-block;
+    margin: 3px;
+    color: #f4f4f4;
+    text-decoration:none;
+    font-size: 10px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-social .social-icon:hover {
+    color: #f72585;
+}
+
+.contact-button {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background-color: #f72585;
+    font-size: 16px;
+    height:30px;
+    width: 100px;
+    padding: 5px 5px ;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: #ffc2d1;
+    transform: scale(1.05);
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid #ccd5ae;
+    padding-top: 20px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-top: 10px;
+    }
+}
